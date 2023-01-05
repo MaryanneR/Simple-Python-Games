@@ -87,4 +87,5 @@ while not end_of_game:
 
             if lives == 0:
                 end_of_game = True
+                print(f"Too bad, the word was '{chosen_word}'")
                 print("GAME OVER")
